@@ -1,0 +1,337 @@
+body{
+  background-color: #ffffff;
+}
+
+@media screen and (max-width: 600px){
+  #menu2 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20%;
+  }
+
+  .menu2 {
+    display: inline-block;
+    padding: 20px;
+  }
+}
+
+.container-fluid{
+  height: 2.1%;
+}
+
+  .nav-distance{
+    padding: 0.5% 5%;
+  }
+
+.navbar-light .navbar-toggler {
+  border-color: #ffffff;
+}
+
+#main {
+  position: relative;
+  overflow: hidden;
+}
+
+.main {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#text1 {
+  padding-top: 7.3%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.text1 {
+  display: inline-block;
+  max-width: 18.4%;
+  height: 1%;
+}
+
+#menu {
+  padding-top: 5.9%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.menu {
+  display: inline-block;
+  max-width: 30%;
+  height: 10.7%;
+  padding: 2%;
+}
+
+#text2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 5%;
+}
+
+.text2 {
+  max-width: 100%;
+  height: auto;
+}
+
+#text3 {
+  padding-top: 7.3%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.text3 {
+  display: inline-block;
+  max-width: 18.4%;
+  height: 1%;
+}
+
+#menu2 {
+  padding-top: 5.9%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+
+.menu2 {
+  display: inline-block;
+  max-width: 100%;
+  height: 10.7%;
+  padding: 2%;
+}
+
+
+
+.section {
+  width: 100%;
+  padding-top: 10%;
+}
+
+/* INPUT 가리기 */
+.section input[id*="slide"] {display:none;}
+
+/* 슬라이드 영역 - max-width 크기를 조절해주면 됩니다*/
+.section .slidewrap {max-width:100%; height: auto; margin:0; overflow:hidden;}
+.section .slidelist {margin: 0; padding: 0; white-space:nowrap; font-size:0;}
+.section .slidelist > li {display:inline-block; vertical-align:middle; width:100%; transition:all .5s;}
+.section .slidelist > li > a {display:block;position:relative;}
+.section .slidelist > li > a img {width:100%;}
+
+/* 좌우로 넘기는 LABEL버튼에 대한 스타일 */
+.section .slidelist label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+.section .slidelist .left {left:30px; background:url('./image/left.png') center center / 100% no-repeat;}
+.section .slidelist .right {right:30px; background:url('./image/right.png') center center / 100% no-repeat;}
+
+/* INPUT 체크되면 변화값이 li까지 전달되는 스타일 */
+.section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.section input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.section input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+
+
+
+#text4 {
+  position: relative;
+  overflow: hidden;
+}
+
+.text4 {
+  max-width: 100%;
+  height: auto;
+}
+
+#text5 {
+  padding-top: 7%;
+
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.text5 {
+  display: inline-block;
+  max-width: 100%;
+  padding: 10%;
+}
+
+#img2 {
+  padding-top: 5%;
+
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.img2 {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#m2ain {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.m2ain {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#menu2-1 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.menu2-1 {
+  display: inline-block;
+  max-width: 100%;
+}
+
+
+#box {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  padding: 16%;
+}
+
+.image {
+  display: inline-block;
+  max-width: 100%;
+  padding-top: 20%;
+}
+
+
+#menu2-2 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.menu2-2 {
+  display: inline-block;
+  max-width: 44.6%;
+}
+
+#menu2-3 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.menu2-3 {
+  display: inline=block;
+  max-width: 100%;
+}
+
+
+#m3ain {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.m3ain {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#menu3-1 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.menu3-1 {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#menu3-2 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.menu3-2 {
+  display: inline=block;
+  max-width: 33.5%;
+}
+
+#menu3-3 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.menu3-3 {
+  display: inline=block;
+  max-width: 100%;
+}
+
+
+#m4ain {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.m4ain {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#menu4-1 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.menu4-1 {
+  display: inline=block;
+  max-width: 100%;
+}
+
+#menu4-2 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.menu4-2 {
+  display: inline=block;
+  max-width: 38.9%;
+}
+
+
+#menu4-3 {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 15%;
+}
+
+.menu4-3 {
+  display: inline=block;
+  max-width: 100%;
+}
